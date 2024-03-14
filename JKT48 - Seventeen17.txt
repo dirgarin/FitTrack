@@ -41,4 +41,17 @@ Sungguh memang kamu yang teristimewa
 Seperti ini selamanya
 Cintaku yang pertama
 
+<<<<<<< HEAD
 Arief Muttaqin-1202210381
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Atiyah Zahra - 1202210319
+=======
+
+Indira Agustia Garini -1202213106
+>>>>>>> 0432674267a89b9ece1c5302bb3ba4d7c83057a9
+=======
+RIFQI BAGUS FANANDRI (1202213083)
+>>>>>>> 78fe01a4b184c2737e611ad2de3f18756665caec
+>>>>>>> 895e6f85e36da18e96a1577c76d58e2ba41cfe2e
