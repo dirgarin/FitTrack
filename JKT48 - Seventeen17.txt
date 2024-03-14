@@ -42,7 +42,11 @@ Seperti ini selamanya
 Cintaku yang pertama
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+Arief Muttaqin-1202210381
+=======
 Rafif Rasalhague - 1202210225 
+>>>>>>> 66d12848c18acb4e25147bff20828cbfba746139
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
