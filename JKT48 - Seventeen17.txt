@@ -41,5 +41,9 @@ Sungguh memang kamu yang teristimewa
 Seperti ini selamanya
 Cintaku yang pertama
 
+<<<<<<< HEAD
 
 Indira Agustia Garini -1202213106
+=======
+RIFQI BAGUS FANANDRI (1202213083)
+>>>>>>> 78fe01a4b184c2737e611ad2de3f18756665caec
