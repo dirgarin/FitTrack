@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->decimal('height'); // height in meters
-            $table->decimal('weight'); // weight in kilograms
+            $table->decimal('height',3, 2); // height in meters
+            $table->decimal('weight',3, 2); // weight in kilograms
             $table->timestamps();
         });
     }
