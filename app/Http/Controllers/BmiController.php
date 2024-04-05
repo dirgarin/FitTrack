@@ -2,26 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class BmiController extends Controller
 {
-    public function index(Request $request){
-        $weight = $request->weight;
-        $height = $request->height;
+    public function calculate(Request $request)
+    {
+        $request->validate([
+            'height' => 'required|numeric|min:0.1|max:3',
+            'weight' => 'required|numeric|min:10|max:500',
+        ]);
 
-        $bmi = $weight / ($height * $height);
+        $user = User::create([
+            'height' => $request->height,
+            'weight' => $request->weight,
+        ]);
 
-        if ($bmi < 18.5) {
-                $category = 'Underweight';
-            }else if ($bmi < 24.9) {
-                $category = 'Normal weight';
-            } else if ($bmi < 29.9) {
-                $category = 'Overweight';
-            } else {
-                $category = 'Obese';
-            }
+        $bmi = $user->calculateBmi();
 
-        return view('bmi', ['bmi' => $bmi]);
+        return view('bmi.result', compact('bmi'));
     }
 }

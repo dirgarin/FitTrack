@@ -6,6 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bmi' , 'BMIController@index');
-// Route::post('/calculate/store','CalculatorController@result')->name('calculate.store');
+Route::post('/bmi/calculate', [BmiController::class, 'calculate'])->name('bmi.calculate');
 
