@@ -1,10 +1,8 @@
 <?php
 
+use App\Http\Controllers\BmiController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::post('/bmi/calculate', [BmiController::class, 'calculate']);
-
+Route::get('/bmi/create', [BMIController::class, 'create'])->name('bmi.create');
+Route::post('/bmi/calculate', [BMIController::class, 'calculate'])->name('bmi.calculate');
